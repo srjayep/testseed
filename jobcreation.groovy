@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 def repoUrl = "https://github.com/srjayep/testseed.git"; //Repository UrL
 pipelineJob(basePath + "/TestJenkinsfileJobCreation") { //JobName
   description("test job creation");
